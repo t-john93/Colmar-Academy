@@ -1,4 +1,215 @@
+
+/*base element rules*/
 html {
   font-size: 16px;
   background-color: white;
+  font-family: sans-serif;
 }
+
+h1{
+  font-size: 2.5rem;
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+
+
+
+/*functional classes*/
+
+.container {
+  display: flex;
+
+}
+
+.headliner-img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.btn {
+
+}
+
+
+/*navbar section*/
+
+.navbar {
+  width: auto;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.title-logo {
+  width: auto;
+  height: 2rem;
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 100%;
+
+}
+
+.colmar {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.academy {
+  font-size: 1.8rem;
+  color: gray;
+}
+
+.navlinks {
+  width: auto;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.link {
+  margin: 0 0.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+
+/*headliner section*/
+
+.headliner {
+  background-color: lightgray;
+}
+
+.headliner-img-main {
+  height: 40rem;
+}
+
+.headline-text {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.headliner-h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+}
+
+.headliner-p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.headliner-p-text {
+
+}
+
+.startbtn {
+  background-color: gray;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 5.5rem;
+  margin-top: 1rem;
+  width: auto;
+}
+
+/*mid page section*/
+
+.midpage-content {
+  margin-bottom: 2rem;
+}
+
+.midpage-headline {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.midpage-headline-img {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.midpage-headline-text {
+  margin-left: 1.5rem;
+  width: 80%;
+
+}
+
+.midpage-headline-text p {
+  margin: 1.5rem 0;
+}
+
+.author {
+
+}
+
+.feature-list {
+  width: 35%;
+  border-left: 1px solid lightgray;
+
+}
+
+.feature-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  width: auto;
+}
+
+.feature {
+  width: 100%;
+  height: 13.5rem;
+  display: flex;
+  background-color: white;
+}
+
+.feature2 {
+  margin: 0.25rem 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray
+}
+
+.feature-img {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+
+.feature-txt {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+/*thesis section*/
+
+#landingpagevideo {
+  height: 50px;
+  width: 50px;
+}
+
+/*footer section*/
