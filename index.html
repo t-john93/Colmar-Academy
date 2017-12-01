@@ -5,6 +5,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <meta name="viewport" content="width=device-width">
   </head>
   <body>
 
@@ -25,22 +26,37 @@
       </ul>
     </div>
 
+    <!--navbar mobile layout-->
+
+    <div class="navbar-mobile">
+      <div class="navbar-mobile-container">
+
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-logo.svg" alt="Image Not Supported"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-on-campus.svg" alt="Image Not Supported"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-online.svg" alt="Image Not Supported"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-login.svg" alt="Image Not Supported"></a>
+      </div>
+    </div>
+
 
 <!--headline img text and button-->
-    <div class="headliner container">
+    <div class="headliner">
+
       <img class="headliner-img-main headliner-img" src="./resources/images/banner.jpg" alt="Image Not Supported">
-      <div class="headline-text container">
+      <div class="headline-txt">
         <div class="headliner-h1">
           <h1>Learn something</h1>
           <h1>new everyday</h1>
         </div>
         <div class="headliner-p">
-          <p class="headliner-p-text">Lorem ipsum dolor sit amet,</p>
-          <p class="headliner-p-text">consectetur adipiscing elit.</p>
+          <h4 class="headliner-p-margin-h4">Lorem ipsum dolor sit amet,</h4>
+          <h4>consectetur adipiscing elit.</h4>
         </div>
-        <div class="startbtn btn">
-          Start Here
-        </div>
+        <a class="startbtn" href="#">
+          <div>
+            Start here
+          </div>
+        </a>
       </div>
     </div>
 
@@ -52,41 +68,52 @@
       <div class="midpage-headline">
         <img class="midpage-headline-img" src="./resources/images/information-main.jpg" alt="Image Not Supported">
         <div class="midpage-headline-text">
-          <h1>It doesn't hurt to keep practicing</h1>
-          <p><blockquote>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.</blockquote></p>
-          <span class="author">Emanuel, Sr Strategist at Hiring.com</span>
+          <h2>It doesn't hurt to keep practicing</h2>
+          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          <span class="author">Emanuel, Sr. Strategist at Hiring.com</span>
         </div>
       </div>
 
       <!--feature list-->
       <div class="feature-list">
         <div class="feature-list-container">
-          <div class="feature1 feature">
-            <img class="feature-img "src="./resources/images/information-orientation.jpg" alt="Image Not Supported">
-            <div class="feature-txt">
-              <h3>Orientation date</h3>
-              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-              <a class="readmore" href="#">Read More</a>
-            </div>
-          </div>
 
-          <div class="feature2 feature">
-            <img class="feature-img "src="./resources/images/information-campus.jpg" alt="Image Not Supported">
-            <div class="feature-txt">
-              <h3>Our campus</h3>
-              <p>Find which campus is close by you</p>
-              <a class="readmore" href="#">Read More</a>
+          <a class="btn" href="#">
+            <div class="feature1 feature">
+              <img class="feature-img "src="./resources/images/information-orientation.jpg" alt="Image Not Supported">
+              <img class="feature-img-mobile "src="./resources/images/information-orientation-mobile.jpg" alt="Image Not Supported">
+              <div class="feature-txt">
+                <h3>Orientation date</h3>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <p class="readmore">Read More</p>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="feature3 feature">
-            <img class="feature-img "src="./resources/images/information-guest-lecture.jpg" alt="Image Not Supported">
-            <div class="feature-txt">
-              <h3>Our guest lecture</h3>
-              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-              <a class="readmore" href="#">Read More</a>
+          <a class="btn" href="#">
+            <div class="feature2 feature">
+              <img class="feature-img "src="./resources/images/information-campus.jpg" alt="Image Not Supported">
+              <img class="feature-img-mobile "src="./resources/images/information-campus-mobile.jpg" alt="Image Not Supported">
+              <div class="feature-txt">
+                <h3>Our campus</h3>
+                <p>Find which campus is close by you</p>
+                <p class="readmore">Read More</p>
+              </div>
             </div>
-          </div>
+          </a>
+
+          <a class="btn" href="#">
+            <div class="feature3 feature">
+              <img class="feature-img "src="./resources/images/information-guest-lecture.jpg" alt="Image Not Supported">
+              <img class="feature-img-mobile "src="./resources/images/information-guest-lecture-mobile.jpg" alt="Image Not Supported">
+              <div id="feature3-txt" class="feature-txt">
+                <h3>Our guest lecture</h3>
+                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                <p class="readmore">Read More</p>
+              </div>
+            </div>
+          </a>
+
         </div>
       </div>
     </div>
@@ -94,112 +121,176 @@
 
 <!--Start learning section-->
     <div class="start-learning">
-      <div class="start-learning-h2">
-        <h2>Start learning</h2>
-      </div>
+      <h2>Start Learning</h2>
 
       <!--tile section-->
-      <div class="tile-container container">
+      <div class="tile-container">
 
         <!--tiles split in 3 columns w/ 2 tiles per column-->
+
+        <!--column 1-->
         <div class="tile-column1 tile-column">
-          <div class="tiletop1 tile">
-            <a class="btn" href="#">
+
+          <a class="btn" href="#">
+            <div class="tile-top tile">
               <img class="tile-img" src="./resources/images/course-software.jpg" alt="Image Not Supported">
-              <h3>Software engineering</h3>
-              <p>COURSES</p>
-              <p>Web Development, Mobile Development, iOT, APIs/p>
-            </a>
-          </div>
-          <div class="tilebottom1 tile">
-            <a class="btn" href="#">
+              <div class="tile-text">
+                <h3>Software engineering</h3>
+                <p class="courses">COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs/p>
+              </div>
+            </div>
+          </a>
+
+          <a class="btn" href="#">
+            <div class="tile-bottom tile">
               <img class="tile-img" src="./resources/images/course-data.jpg" alt="Image Not Supported">
-              <h3>Data</h3>
-              <p>COURSES</p>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
-            </a>
+              <div class="tile-text">
+                <h3>Data</h3>
+                <p class="courses">COURSES</p>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
+            </div>
           </div>
-        </div>
+          </a>
 
         <!--column 2-->
         <div class="tile-column2 tile-column">
-          <div class="tile-top2 tile">
-            <a class="btn" href="#">
-              <img class="tile-img" src="./resources/images/course-computer-art.jpg" alt="Image Not Supported">
-              <h3>Computer art</h3>
-              <p>COURSES</p>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-            </a>
-          </div>
-          <div class="tile-bottom2 tile">
-            <a class="btn" href="#">
+
+          <a class="btn" href="#">
+            <div class="tile-top tile">
+                <img class="tile-img" src="./resources/images/course-computer-art.jpg" alt="Image Not Supported">
+                <div class="tile-text">
+                  <h3>Computer art</h3>
+                  <p class="courses">COURSES</p>
+                  <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                </div>
+            </div>
+          </a>
+
+          <a class="btn" href="#">
+            <div class="tile-bottom tile">
               <img class="tile-img" src="./resources/images/course-business.jpg" alt="Image Not Supported">
-              <h3>Business</h3>
-              <p>COURSES</p>
-              <p>Product Development, Business Development, Startup</p>
-            </a>
+              <div class="tile-text">
+                <h3>Business</h3>
+                <p class="courses">COURSES</p>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
+            </div>
           </div>
-        </div>
+          </a>
 
         <!--column 3-->
         <div class="tile-column3 tile-column">
-          <div class="tile-top3 tile">
-            <a class="btn" href="#">
+
+          <a class="btn" href="#">
+            <div class="tile-top tile">
               <img class="tile-img" src="./resources/images/course-design.jpg" alt="Image Not Supported">
-              <h3>Design</h3>
-              <p>COURSES</p>
-              <p>User Experience Design, User Research, Visual Design</p>
-            </a>
-          </div>
-          <div class="tile-bottom3 tile">
-            <a class="btn" href="#">
+              <div class="tile-text">
+                <h3>Design</h3>
+                <p class="courses">COURSES</p>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="btn" href="#">
+            <div class="tile-bottom tile">
               <img class="tile-img" src="./resources/images/course-marketing.jpg" alt="Image Not Supported">
-              <h3>Marketing</h3>
-              <p>COURSES</p>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
-            </a>
-          </div>
+              <div class="tile-text">
+                <h3>Marketing</h3>
+                <p class="courses">COURSES</p>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
+            </div>
+          </a>
         </div>
+
       </div>
+
+      <!--Start Learning Mobile Layout-->
+
+      <div class="mobile-course-list">
+        <a id="mobile-course-btn" class="btn" href="#">
+          <div class="mobile-tile">
+            <span>Software Engineering</span>
+          </div>
+        </a>
+
+        <a id="mobile-course-btn" class="btn" href="#">
+          <div class="mobile-tile">
+            <span>Computer Art</span>
+          </div>
+        </a>
+        <a id="mobile-course-btn" class="btn" href="#">
+          <div class="mobile-tile">
+            <span>Design</span>
+          </div>
+        </a>
+        <a id="mobile-course-btn" class="btn" href="#">
+          <div class="mobile-tile">
+            <span>Data</span>
+          </div>
+        </a>
+        <a id="mobile-course-btn" class="btn" href="#">
+          <div class="mobile-tile">
+            <span>Business</span>
+          </div>
+        </a>
+        <a id="last-course-tile" class="btn" href="#">
+          <div class="mobile-tile">
+            <span>Marketing</span>
+          </div>
+        </a>
+      </div>
+
     </div>
 
 
 <!--Thesis Section-->
     <div class="thesis-section">
       <div class="thesis-h1">
-        <h1>Thesis exhibit</h1>
+        <h1>Thesis Exhibits</h1>
       </div>
 
       <!--video and articles contianer-->
-      <div class="thesis-container container">
+      <div class="thesis-container">
 
         <!--video section-->
         <div class="video-section">
           <video id="landingpagevideo" src="./resources/videos/thesis.mp4" autoplay loop>
             Video Not Supported
           </video>
-          <h4>Reimagine urban</h4>
-          <p><blockquote>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</blockquote></p>
+          <div class="video-section-txt">
+            <h4>Reimagine urban</h4>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          </div>
         </div>
 
         <!--article section-->
-        <div class="article-link-section">
+        <div id="article-list" class="feature-list">
+          <div id="article-container" class="feature-list-container">
 
-          <div class="article1 article">
             <a class="btn" href="#">
-              <img class="article-img" src="./resources/images/thesis-fisma.jpg" alt="Image Not Supported">
-              <h3>Fisma: Design and Prototype</h3>
-              <p>Designer showcase of new</p>
-              <p>prototype product</p>
+              <div class="article1 feature">
+                <img class="feature-img" src="./resources/images/thesis-fisma.jpg" alt="Image Not Supported">
+                <div class="feature-txt">
+                  <h3>Fisma: Design and Prototype</h3>
+                  <p>Designer showcase of new prototype product</p>
+                </div>
+              </div>
             </a>
 
-          </div>
-          <div class="article2 article">
             <a class="btn" href="#">
-              <img class="article-img" src="./resources/images/thesis-now-and-then.jpg" alt="Image Not Supported">
-              <h3>Now and then</h3>
-              <p>Research study about New York</p>
+              <div class="article2 feature">
+                <img class="feature-img" src="./resources/images/thesis-now-and-then.jpg" alt="Image Not Supported">
+                <div class="feature-txt">
+                  <h3>Now and then</h3>
+                  <p>Research study about New York</p>
+                </div>
+              </div>
             </a>
+
           </div>
         </div>
       </div>
@@ -208,11 +299,12 @@
 
 <!--Footer Section-->
     <div class="footer">
-      <span class="copyright">&copyright; 2016 Colmar Academy. All rights reserved</span>
-      <ul>
-        <li>Terms</li>
-        <li>Privacy</li>
-      </ul>
+      <div class="footer-txt">
+        <span class="copyright">&copy; 2016 Colmar Academy. All rights reserved</span>
+        <div class="terms-privacy">
+          <a href="#">Terms</a><a href="#">Privacy</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
