@@ -5,51 +5,52 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600|Source+Sans+Pro:700" rel="stylesheet">
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
 
 
 <!--nav bar section-->
-    <div class="navbar">
-      <div class="title-logo">
-        <img class="logo-img" src="./resources/images/ic-logo.svg" alt="Image Not Supported">
-        <span class="colmar">COLMAR</span>
-        <span class="academy">ACADEMY</span>
+    <header class="navbar">
+      <div class="title-logo" role="presentation">
+        <img class="logo-img" src="./resources/images/ic-logo.svg" alt="school logo">
+        <span class="colmar" role="School Name">COLMAR</span>
+        <span class="academy" role="School Name">ACADEMY</span>
       </div>
 
-      <ul class="navlinks">
+      <ul class="navlinks" role="presentation">
         <a class="link" href="#"><li>On Campus</li></a>
         <a class="link" href="#"><li>Online</li></a>
         <a class="link" href="#"><li>For Companies</li></a>
         <a class="link" href="#"><li>Sign In</li></a>
       </ul>
-    </div>
+    </header>
 
     <!--navbar mobile layout-->
 
-    <div class="navbar-mobile">
-      <div class="navbar-mobile-container">
+    <header class="navbar-mobile">
+      <div class="navbar-mobile-container" role="presentation">
 
-        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-logo.svg" alt="Image Not Supported"></a>
-        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-on-campus.svg" alt="Image Not Supported"></a>
-        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-online.svg" alt="Image Not Supported"></a>
-        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-login.svg" alt="Image Not Supported"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-logo.svg" alt="school logo home page link"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-on-campus.svg" alt="campus events link"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-online.svg" alt="online features link"></a>
+        <a href="#"><img class="navbar-mobile-img" src="./resources/images/ic-login.svg" alt="user login link"></a>
       </div>
-    </div>
+    </header>
 
 
 <!--headline img text and button-->
-    <div class="headliner">
+    <div class="headline">
 
-      <img class="headliner-img-main headliner-img" src="./resources/images/banner.jpg" alt="Image Not Supported">
-      <div class="headline-txt">
-        <div class="headliner-h1">
+      <img class="headline-img-main headliner-img" src="./resources/images/banner.jpg" alt="a group of students studying together">
+      <div class="headline-txt" role="presentation">
+        <div class="headline-h1">
           <h1>Learn something</h1>
           <h1>new everyday</h1>
         </div>
-        <div class="headliner-p">
-          <h4 class="headliner-p-margin-h4">Lorem ipsum dolor sit amet,</h4>
+        <div class="headline-p" role="presentation">
+          <h4 class="headline-p-margin-h4">Lorem ipsum dolor sit amet,</h4>
           <h4>consectetur adipiscing elit.</h4>
         </div>
         <a class="startbtn" href="#">
@@ -62,26 +63,30 @@
 
 
 <!--Midpage content and feature list-->
-    <div class="midpage-content container">
+    <div class="midpage-content">
 
       <!--midpage headline-->
       <div class="midpage-headline">
-        <img class="midpage-headline-img" src="./resources/images/information-main.jpg" alt="Image Not Supported">
-        <div class="midpage-headline-text">
+        <img class="midpage-headline-img" src="./resources/images/information-main.jpg" alt="a student reading">
+        <div class="midpage-headline-text" role="presentation">
           <h2>It doesn't hurt to keep practicing</h2>
-          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          <p>
+            <blockquote cite="http://">
+              "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+            </blockquote>
+          </p>
           <span class="author">Emanuel, Sr. Strategist at Hiring.com</span>
         </div>
       </div>
 
       <!--feature list-->
       <div class="feature-list">
-        <div class="feature-list-container">
+        <div class="feature-list-container" role="presentation">
 
           <a class="btn" href="#">
             <div class="feature1 feature">
-              <img class="feature-img "src="./resources/images/information-orientation.jpg" alt="Image Not Supported">
-              <img class="feature-img-mobile "src="./resources/images/information-orientation-mobile.jpg" alt="Image Not Supported">
+              <img class="feature-img "src="./resources/images/information-orientation.jpg" alt="students walking down a path on campus">
+              <img class="feature-img-mobile "src="./resources/images/information-orientation-mobile.jpg" alt="students walking down a path on campus">
               <div class="feature-txt">
                 <h3>Orientation date</h3>
                 <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -92,8 +97,8 @@
 
           <a class="btn" href="#">
             <div class="feature2 feature">
-              <img class="feature-img "src="./resources/images/information-campus.jpg" alt="Image Not Supported">
-              <img class="feature-img-mobile "src="./resources/images/information-campus-mobile.jpg" alt="Image Not Supported">
+              <img class="feature-img "src="./resources/images/information-campus.jpg" alt="an on campus dining facility">
+              <img class="feature-img-mobile "src="./resources/images/information-campus-mobile.jpg" alt="an on campus dining facility">
               <div class="feature-txt">
                 <h3>Our campus</h3>
                 <p>Find which campus is close by you</p>
@@ -104,8 +109,8 @@
 
           <a class="btn" href="#">
             <div class="feature3 feature">
-              <img class="feature-img "src="./resources/images/information-guest-lecture.jpg" alt="Image Not Supported">
-              <img class="feature-img-mobile "src="./resources/images/information-guest-lecture-mobile.jpg" alt="Image Not Supported">
+              <img class="feature-img "src="./resources/images/information-guest-lecture.jpg" alt="oliver sack">
+              <img class="feature-img-mobile "src="./resources/images/information-guest-lecture-mobile.jpg" alt="oliver sack">
               <div id="feature3-txt" class="feature-txt">
                 <h3>Our guest lecture</h3>
                 <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -124,7 +129,7 @@
       <h2>Start Learning</h2>
 
       <!--tile section-->
-      <div class="tile-container">
+      <div class="tile-container" role="presentation">
 
         <!--tiles split in 3 columns w/ 2 tiles per column-->
 
@@ -133,7 +138,7 @@
 
           <a class="btn" href="#">
             <div class="tile-top tile">
-              <img class="tile-img" src="./resources/images/course-software.jpg" alt="Image Not Supported">
+              <img class="tile-img" src="./resources/images/course-software.jpg" alt="a photo of software being written">
               <div class="tile-text">
                 <h3>Software engineering</h3>
                 <p class="courses">COURSES</p>
@@ -144,7 +149,7 @@
 
           <a class="btn" href="#">
             <div class="tile-bottom tile">
-              <img class="tile-img" src="./resources/images/course-data.jpg" alt="Image Not Supported">
+              <img class="tile-img" src="./resources/images/course-data.jpg" alt="a photo of data graphs on a computer screen">
               <div class="tile-text">
                 <h3>Data</h3>
                 <p class="courses">COURSES</p>
@@ -159,7 +164,7 @@
 
           <a class="btn" href="#">
             <div class="tile-top tile">
-                <img class="tile-img" src="./resources/images/course-computer-art.jpg" alt="Image Not Supported">
+                <img class="tile-img" src="./resources/images/course-computer-art.jpg" alt="a photo of a mobile webpage design">
                 <div class="tile-text">
                   <h3>Computer art</h3>
                   <p class="courses">COURSES</p>
@@ -170,7 +175,7 @@
 
           <a class="btn" href="#">
             <div class="tile-bottom tile">
-              <img class="tile-img" src="./resources/images/course-business.jpg" alt="Image Not Supported">
+              <img class="tile-img" src="./resources/images/course-business.jpg" alt="a photo of a chess board">
               <div class="tile-text">
                 <h3>Business</h3>
                 <p class="courses">COURSES</p>
@@ -185,7 +190,7 @@
 
           <a class="btn" href="#">
             <div class="tile-top tile">
-              <img class="tile-img" src="./resources/images/course-design.jpg" alt="Image Not Supported">
+              <img class="tile-img" src="./resources/images/course-design.jpg" alt="a photo of a vintage camera">
               <div class="tile-text">
                 <h3>Design</h3>
                 <p class="courses">COURSES</p>
@@ -196,7 +201,7 @@
 
           <a class="btn" href="#">
             <div class="tile-bottom tile">
-              <img class="tile-img" src="./resources/images/course-marketing.jpg" alt="Image Not Supported">
+              <img class="tile-img" src="./resources/images/course-marketing.jpg" alt="a photo of a smart watch">
               <div class="tile-text">
                 <h3>Marketing</h3>
                 <p class="courses">COURSES</p>
@@ -210,7 +215,7 @@
 
       <!--Start Learning Mobile Layout-->
 
-      <div class="mobile-course-list">
+      <div class="mobile-course-list" role="presentation">
         <a id="mobile-course-btn" class="btn" href="#">
           <div class="mobile-tile">
             <span>Software Engineering</span>
@@ -248,13 +253,13 @@
 
 
 <!--Thesis Section-->
-    <div class="thesis-section">
+    <div class="thesis-section" role="presentation">
       <div class="thesis-h1">
         <h1>Thesis Exhibits</h1>
       </div>
 
       <!--video and articles contianer-->
-      <div class="thesis-container">
+      <div class="thesis-container" role="presentation">
 
         <!--video section-->
         <div class="video-section">
@@ -263,17 +268,21 @@
           </video>
           <div class="video-section-txt">
             <h4>Reimagine urban</h4>
-            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            <p>
+              <blockquote cite="http://">
+                "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+              </blockquote>
+            </p>
           </div>
         </div>
 
         <!--article section-->
-        <div id="article-list" class="feature-list">
-          <div id="article-container" class="feature-list-container">
+        <div id="article-list" class="feature-list" role="presentation">
+          <div id="article-container" class="feature-list-container" role="presentation">
 
             <a class="btn" href="#">
               <div class="article1 feature">
-                <img class="feature-img" src="./resources/images/thesis-fisma.jpg" alt="Image Not Supported">
+                <img class="feature-img" src="./resources/images/thesis-fisma.jpg" alt="a photo of a smart phone design drawing">
                 <div class="feature-txt">
                   <h3>Fisma: Design and Prototype</h3>
                   <p>Designer showcase of new prototype product</p>
@@ -283,7 +292,7 @@
 
             <a class="btn" href="#">
               <div class="article2 feature">
-                <img class="feature-img" src="./resources/images/thesis-now-and-then.jpg" alt="Image Not Supported">
+                <img class="feature-img" src="./resources/images/thesis-now-and-then.jpg" alt="a photo of a city skyline">
                 <div class="feature-txt">
                   <h3>Now and then</h3>
                   <p>Research study about New York</p>
@@ -298,13 +307,13 @@
 
 
 <!--Footer Section-->
-    <div class="footer">
-      <div class="footer-txt">
+    <footer>
+      <div class="footer-txt" role="presentation">
         <span class="copyright">&copy; 2016 Colmar Academy. All rights reserved</span>
-        <div class="terms-privacy">
+        <div class="terms-privacy" role="presentation">
           <a href="#">Terms</a><a href="#">Privacy</a>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

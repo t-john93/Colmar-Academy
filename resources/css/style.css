@@ -3,8 +3,8 @@
 
 html,body {
   font-size: 16px;
-  background-color: white;
-  font-family: sans-serif;
+  background-color: #f7f7f7;
+  font-family: 'Encode Sans Condensed', sans-serif;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -14,7 +14,8 @@ html,body {
 }
 
 h1{
-  font-size: 3rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.2rem;
   font-weight: 700;
 }
 
@@ -34,6 +35,10 @@ h4 {
 }
 
 p {
+  line-height: 1.4;
+}
+
+blockquote {
   line-height: 1.4;
 }
 
@@ -69,6 +74,12 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
+.btn:active {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
 /*used for side articles and feature buttons*/
 
 .feature-list {
@@ -89,7 +100,7 @@ a {
   width: 100%;
   height: 14rem;
   display: flex;
-  background-color: white;
+  background-color: #f7f7f7;
 }
 
 .feature:hover {
@@ -196,11 +207,13 @@ a {
 .colmar {
   font-size: 1.8rem;
   font-weight: 600;
+  font-family: sans-serif;
 }
 
 .academy {
   font-size: 1.8rem;
   color: gray;
+  font-family: sans-serif;
 }
 
 .navlinks {
@@ -213,7 +226,7 @@ a {
 
 .link {
   margin: 0 0.5rem;
-  color: black;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -258,12 +271,12 @@ a {
 
 /*headliner section*/
 
-.headliner {
+.headline {
   display: flex;
   background-color: lightgray;
 }
 
-.headliner-img-main {
+.headline-img-main {
   height: 40rem;
 }
 
@@ -274,16 +287,16 @@ a {
   justify-content: center;
 }
 
-.headliner-h1 {
+.headline-h1 {
   margin-bottom: 1rem;
 
 }
 
-.headliner-p {
+.headline-p {
   margin: 1rem 0;
 }
 
-.headliner-p-margin-h4 {
+.headline-p-margin-h4 {
   margin-bottom: .5rem;
 }
 
@@ -300,6 +313,12 @@ a {
 
 .startbtn:hover {
   text-decoration: underline;
+}
+
+.startbtn:active {
+  -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.75);
 }
 
 /*headline mobile layout*/
@@ -329,6 +348,10 @@ a {
 
 
 /*mid page section*/
+
+.midpage-content {
+  display: flex;
+}
 
 .midpage-headline {
   width: 60%;
@@ -373,7 +396,7 @@ a {
 /*start learning section*/
 
 .start-learning {
-  background-color: lightgray;
+  background-color: #ededed;
   text-align: center;
 }
 
@@ -438,7 +461,7 @@ a {
 
 @media only screen and (max-width: 480px) {
   .start-learning {
-    background-color: white;
+    background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -587,7 +610,7 @@ a {
 /*footer mobile layout*/
 
 @media only screen and (max-width: 480px) {
-  .footer {
+  footer {
     border: none;
   }
 
